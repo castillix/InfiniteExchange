@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "iexchange",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Infinite Exchange",
+  "description": "make this eventually",
   "authors": [
-    "Me!"
+    "Castillix"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "sources": "https://github.com/castillix/InfiniteExchange"
   },
 
   "license": "CC0-1.0",
@@ -19,11 +19,11 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "com.castillix.infiniteExchange.InfiniteExchangeMod"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "iexchange.mixins.json"
   ],
 
   "depends": {

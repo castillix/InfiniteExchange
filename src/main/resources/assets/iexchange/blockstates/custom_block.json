@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "iexchange:block/custom_block" }
+  }
+}
