@@ -20,6 +20,9 @@
   "entrypoints": {
     "main": [
       "com.castillix.infiniteExchange.InfiniteExchangeMod"
+    ],
+    "client": [
+      "com.castillix.infiniteExchange.InfiniteExchangeClientMod"
     ]
   },
   "mixins": [

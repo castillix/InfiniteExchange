@@ -20,10 +20,4 @@ public class CustomItem extends Item {
         super(settings);
     }
 
-    @Override
-    public TypedActionResult<ItemStack> use(World world, PlayerEntity playerEntity, Hand hand) {
-        playerEntity.incrementStat(InfiniteExchangeMod.EMC);
-
-        return TypedActionResult.success(playerEntity.getStackInHand(hand));
-    }
 }
